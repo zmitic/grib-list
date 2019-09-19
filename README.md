@@ -4,12 +4,6 @@ To extra all available grib types, download one grib file first. Convert it to C
 wgrib2 "2019-09-05 06:00:00.grb" -csv test.csv
 ```
 
-This will create about 28GB CSV file with all possible values. Application doesn't need them all so to find types and subtypes run this command:
-
-```
-./bin/console app:extract:type test.csv
-```
-
 At this moment, these are available types:
 
 ```
